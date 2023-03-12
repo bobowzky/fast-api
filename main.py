@@ -2,7 +2,6 @@ import orjson
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
-
 class AnimeRecord(BaseModel):
     rank: int
     title: str
